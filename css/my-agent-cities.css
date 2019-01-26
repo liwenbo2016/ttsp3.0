@@ -1,0 +1,46 @@
+#mui_agentArea span{
+	float:left;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	overflow: hidden;
+}
+#mui_agentProvince{
+	float:left;
+	width:24%;
+	border:solid 1px #e2e2e2;
+	font-size:12px;
+	display:none;
+}
+#mui_agentCity{
+	float:left;
+	width:24%;
+	border:solid 1px #e2e2e2;
+	margin-left:1%;
+	font-size:12px;
+	display:none;
+
+}
+#mui_agentDistrict{
+	float:left;
+	width:24%;
+	border:solid 1px #e2e2e2;
+	margin-left:1%;
+	font-size:12px;
+	display:none;
+
+}
+.mui_agencyApplication_contain .mui-active{
+	background:#fff!important;
+}
+#quyu{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	overflow: hidden;
+	float:left;
+	width:60%;
+	border:solid 1px #e2e2e2;
+	font-size:12px;
+	/*display:none;*/
+}

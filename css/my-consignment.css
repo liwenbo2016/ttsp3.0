@@ -1,0 +1,318 @@
+/*修改框架内部的样式*/
+/*.mui-segmented-control {
+    border:none !important;
+    border-radius:0px !important;
+    background-color:#fff;
+}
+.mui-control-item{
+	color:#000 !important;
+}
+.mui-segmented-control .mui-control-item {
+    border-color: #fff; 
+    border-left: none !important; 
+}
+.mui-segmented-control .mui-control-item.mui-active {
+    color: #000;
+    font-weight:bold;
+    background-color: #fff !important;
+    border-bottom:2px solid mediumvioletred;
+}
+.mui-content-padded{
+	margin:0px 0px !important;
+}
+.mui-table-view-cell{
+	width:100%;
+	margin:0 auto;
+}
+.mui-table-view-cell:after {
+   background-color: #fff; 
+}
+*/
+
+
+/*添加完成的样式*/
+/*.mui-icon-color{
+	color:#000;
+}
+.mui-table{
+	width:100%;
+}
+.mui-table-thead{
+	background:#e6e6e6;
+}
+.mui-table-thead th{
+	font-size:10px;
+	padding:5px 0px;
+}
+.mui-table-tbody{
+	background:#fff;
+}
+.mui-table-tbody td{
+    font-size:10px;
+    text-align:center;
+    margin:5px 0px;
+}
+.mui-abb-info{
+	padding-left:8px;
+	overflow: hidden;
+	-webkit-line-clamp:3; 
+	-webkit-box-orient:vertical;
+	display: -webkit-box;
+}
+.mui-tr-top-border{
+	border-top:1px solid #f2f2f2;
+}
+.mui-li-top{
+	border-top:5px solid #f2f2f2;
+}
+.mui-table-view:before {
+    position:inherit;
+}
+.mui-table-view:after {
+    position:inherit; 
+}
+.mui-media-size {
+	color:#000;
+	font-size:13px;
+}
+.mui-abbs-info{
+	width:70%;
+	float:left;
+	display:block;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.mui-info-span{
+	width:30%;
+	float:left;
+	text-align:right;
+}
+.mui-li-buttom{
+	margin-left:15%;
+}
+.mui-div-width{
+	width:100%;
+}
+.mui-text-right{
+	color:red;
+	font-size:13px;
+	text-align:right;
+}
+.mui-float-div{
+	float:left;
+	width:33.33%;
+	margin-top:5px;
+}
+.mui-info-color{
+	color:red;
+	font-size:17px;
+}
+.mui-float-div a , .mui-float-divss a{
+	color:#fff;
+	font-size:13px;
+	border-radius:5px;
+}
+.mui-pull-center{
+	padding:5px 20px;
+	margin-left:15%;
+}
+.mui-a-red{
+	background:red;
+}
+.mui-pull-righ{
+	padding:2px 20px;
+}
+.mui-a-block{
+	background:#000;
+}
+.mui-float-divs{
+	float:left;
+	width:70%;
+	margin-top:5px;
+}
+.mui-float-divss{
+	float:left;
+	width:30%;
+	margin-top:5px;
+}
+.mui-divs-sizr{
+	color:#ccc;
+	font-size:13px !important;
+}
+.mui-green-color{
+	color:deepskyblue !important;
+}
+.mui-span-left-color{
+	color:red !important;
+	margin-left:10px;
+}
+.mui-span-right-color{
+	margin-left:10px;
+}
+.mui-gray-a{
+	background:#ccc !important;
+}
+*/
+
+/*修改框架内部的样式*/
+ .mui-segmented-control {
+     border:none !important;
+     border-radius:0rem !important;
+     background-color:#fff;
+}
+ .mui-control-item{
+     color:#000 !important;
+}
+ .mui-segmented-control .mui-control-item {
+     border-color: #fff;
+     border-left: none !important;
+}
+ .mui-segmented-control .mui-control-item.mui-active {
+     color: #000;
+     font-weight:bold;
+     background-color: #fff !important;
+     border-bottom:0.05405405405405406rem solid mediumvioletred;
+}
+ .mui-content-padded{
+     margin:0rem 0rem !important;
+}
+ .mui-table-view-cell{
+     width:100%;
+     margin:0 auto;
+}
+ .mui-table-view-cell:after {
+     background-color: #fff;
+}
+/*添加完成的样式*/
+ .mui-icon-color{
+     color:#000;
+}
+ .mui-table{
+     width:100%;
+}
+ .mui-table-thead{
+     background:#e6e6e6;
+}
+ .mui-table-thead th{
+
+   font-size: 0.2972972972972973rem!important;
+	color: #666!important;
+ 
+}
+ .mui-table-tbody{
+     background:#fff;
+}
+ .mui-table-tbody td{
+     font-size:0.2702702702702703rem;
+     text-align:center;
+     margin:0.13513513513513514rem 0rem;
+}
+ .mui-abb-info{
+     padding-left:0.21621621621621623rem;
+     overflow: hidden;
+     -webkit-line-clamp:3;
+     -webkit-box-orient:vertical;
+     display: -webkit-box;
+}
+ .mui-tr-top-border{
+     border-top:0.02702702702702703rem solid #f2f2f2;
+}
+ .mui-li-top{
+     border-top:0.13513513513513514rem solid #f2f2f2;
+}
+ .mui-table-view:before {
+     position:inherit;
+}
+ .mui-table-view:after {
+     position:inherit;
+}
+ .mui-media-size {
+     color:#000;
+     font-size:0.35135135135135137rem;
+}
+ .mui-abbs-info{
+     width:70%;
+     float:left;
+     display:block;
+     text-overflow:ellipsis;
+     overflow:hidden;
+     white-space:nowrap;
+}
+ .mui-info-span{
+     width:30%;
+     float:left;
+     text-align:right;
+}
+ .mui-li-buttom{
+     margin-left:15%;
+}
+ .mui-div-width{
+     width:100%;
+}
+ .mui-text-right{
+     color:red;
+     font-size:0.35135135135135137rem;
+     text-align:right;
+}
+ .mui-float-div{
+     float:left;
+     width:33.33%;
+     margin-top:0.13513513513513514rem;
+}
+ .mui-info-color{
+     color:red;
+     font-size:0.4594594594594595rem;
+}
+ .mui-float-div a , .mui-float-divss a{
+     color:#fff;
+     font-size:0.35135135135135137rem;
+     border-radius:0.13513513513513514rem;
+}
+ .mui-pull-center{
+     padding:0.13513513513513514rem 0.5405405405405406rem;
+     margin-left:15%;
+}
+ .mui-a-red{
+     background:red;
+}
+ .mui-pull-righ{
+     padding:0.05405405405405406rem 0.5405405405405406rem;
+	 padding: 0.08108108108108109rem 0.35135135135135137rem;
+
+}
+ .mui-a-block{
+     background:#000;
+     margin-top:-3px;
+}
+ .mui-float-divs{
+     float:left;
+     width:70%;
+     margin-top:0.13513513513513514rem;
+}
+ .mui-float-divss{
+     float:left;
+     width:30%;
+     margin-top:0.13513513513513514rem;
+}
+ .mui-divs-sizr{
+     color:#ccc;
+     font-size:0.35135135135135137rem !important;
+}
+ .mui-green-color{
+     color:deepskyblue !important;
+}
+ .mui-span-left-color{
+     color:red !important;
+     margin-left:0.2702702702702703rem;
+}
+ .mui-span-right-color{
+     margin-left:0.2702702702702703rem;
+}
+ .mui-gray-a{
+     background:#ccc !important;
+}
+ 
+.mui-bar-nav{
+	background-color:#fff;
+}

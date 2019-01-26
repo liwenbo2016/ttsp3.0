@@ -1,0 +1,87 @@
+.mui-bg-color{
+	background-color:#57a9ff;
+}
+.mui-box-bg{
+	width:100%;
+	padding:20px 0px;
+	background-color:#57a9ff;
+}
+.mui-center-box{
+	width:33.33%;
+	margin:0 auto;
+}
+.mui-center-box p{
+	color:#fff;
+	text-align:center;
+}
+.mui-buttom-box{
+	width:100%;
+	height:30px;
+	padding-top:5px;
+	background-color:#2a92ff;
+}
+.mui-p-font{
+	font-size:36px;
+}
+.mui-left-border{
+	height:80%;
+	border-right:1px solid #aec3d8;
+}
+.mui-buttom-width{
+	width:50%;
+	color:#fff;
+	font-size:12px;
+	line-height:20px;
+	text-align:center;
+}
+.mui-btn-color{
+	background-color:#2a92ff !important;
+}
+.mui-list-box{
+	width:100%;
+	background-color:#fff;
+}
+.mui-bold{
+	color:#000;
+}
+.mui-pad-top{
+	margin-top:25px;
+}
+.mui-btn-colors{
+	color:#000;
+}
+
+
+.mui-ul-width{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.mui-ul-width li{
+	float:left;
+	width:20%;
+	padding:10px 0px;
+	text-align:center;
+	list-style-type:none;
+	background-color:#fff;
+}
+.mui-ul-width li a{
+	color:#333;
+}
+.mui-ul-width li a div{
+	margin-top:8px;
+}
+
+.mui-info-top{
+	font-size:17px;
+	line-height:44px;
+}
+.mui-font-sizes{
+	color:#000;
+	font-size:12px;
+}
+.mui-btn-bgs{
+	width:90%;
+	padding:5px 0px;
+	margin:15px auto;
+}

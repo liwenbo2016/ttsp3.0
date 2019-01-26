@@ -1,0 +1,31 @@
+.mui-icon-color{
+     color:#000;
+}
+ .mui-agreement-info{
+     width:90%;
+     margin:0 auto;
+     padding-top:1.3513513513513513rem;
+}
+ .mui-one-info{
+     text-indent:0.8648648648648649rem;
+     ;
+}
+ .mui-agreement-info p{
+     color:#000;
+     font-size:0.32432432432432434rem;
+	 text-align: justify;
+	 word-break: break-all;
+}
+ .mui-bar-nav{
+	 background-color:#fff;
+	 box-shadow: none;
+	 border-bottom:solid 1px #e2e2e2;
+ }
+/*.mui-bat-link{
+	width:90%;
+	margin:20px auto;
+}
+.mui-btn-padd{
+	padding:5px 20px;
+}
+*/

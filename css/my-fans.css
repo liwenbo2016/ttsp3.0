@@ -1,0 +1,36 @@
+.mui_myFans_head{
+	background-color:#fff;
+}
+.mui_backBlack{
+	color:#000;
+}
+.mui_myFans_table{
+	width:100%;
+	background:#fff;   
+}
+.mui_myFans_table thead{
+	border-top:solid 1px #f2f2f2;
+	border-bottom:solid 1px #F2F2F2;
+}
+.mui_myFans_table th,.mui_myFans_table td{
+	font-size: 10px;
+	font-weight: normal;
+	text-align:center;
+}
+.mui_myFans_table .mui_myFans_avatar{
+	width:30px;
+	height:30px;
+	vertical-align: middle;
+	border-radius: 50%;;
+}
+.mui_myFans_table tbody tr{
+	border-bottom:solid 1px #f2f2f2;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.mui_myFans_table tbody tr:active{
+	background-color:#eee;
+}
+.mui_myFans_table tbody td{
+	padding:3px 2px;
+}

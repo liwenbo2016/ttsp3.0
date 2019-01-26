@@ -1,0 +1,101 @@
+.mui_myAccess_head{
+	background:#fff;
+}
+.mui_backBlack{
+	color:#000;
+}
+.mui_myAccess_goodsImg{
+	width:100px!important;
+	height:100px!important;
+	max-width: 100px!important;
+}
+.mui_campLine{
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+    overflow: hidden;
+	white-space: normal;
+	color:#000;
+}
+.mui_myAccess_goodsDec{
+	min-height:122px;
+	position:relative
+}
+.mui_myAccess_goods .mui_accessBtn{
+	font-size:12px;
+	border-radius:22px;
+	height:26px;
+	width:80px;
+	padding:0;
+	line-height:24px;
+	position:absolute;
+	right:15px;
+	bottom:0;
+	top:auto;
+	
+	color:#777;
+	border-color:#777;
+}
+.mui_myAccess_goods .mui_accessBtn_on{
+	color:red;
+	border-color:red;
+}
+
+
+.mui_accessComment_wrap{
+	background:#fff;
+}
+.mui_myAccess_head a.mui-action-back{
+	color:#000;
+}
+.mui_myAccess_head .mui-btn{
+	color:#000;
+}
+.mui_accessComment_goodsWrap{
+	margin-top:0!important;
+}
+.mui_accessComment_goodsWrap:before{
+	display:none;
+}
+.mui_accessComment_goodsWrap:after{
+	display:none;
+}
+.mui_accessComment_goods{
+	background-color:#fff!important;
+}
+.mui_accesssComment_goodsImg{
+	max-width:80px!important;
+	width:80px!important;
+	height:80px!important;
+}
+.mui_accessComment_goods .mui-media-body{
+	height:80px;
+	position:relative;
+}
+.mui_accessComment_goods .mui_comment_starBar{
+	position:absolute;
+	left:0;
+	top:50%;
+	height:25px;
+	margin-top:-18px;
+}
+.mui_commentArea_case{
+	padding:10px 15px;
+}
+.mui_commentArea_title{
+	color:#000;
+	margin:0;
+}
+.mui_commentArea_txtCase{
+	margin:5px 0;
+	border:solid 1px #e2e2e2;
+	border-radius:4px;
+	position:relative;
+}
+.mui_commentArea_txtCase textarea{
+	padding:2px 5px;
+	border:0;
+}
+.mui_commentArea_txtCase textarea::-webkit-input-placeholder{
+	font-size:12px;
+}  

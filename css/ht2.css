@@ -1,0 +1,73 @@
+.mui_brand_header {
+    background: #fff;
+}
+.mheader {
+    display: flex;
+    height: 44px;
+    padding-top: 5px;
+    position: relative;
+    z-index: 2;
+}
+.mheader .mleft {
+    flex: 0 0 52px;
+    text-align: center;
+}
+.icon-menu {
+    background-image: url(../img/menu.png);
+}
+.icon {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-size: contain;
+    vertical-align: middle;
+}
+.mheader .mui-input-row {
+    flex: 1;
+}
+.mheader .mui-search input[type=search] {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.mheader .mright {
+    flex: 0 0 74px;
+    padding-left: 5px;
+}
+.icon-sweep {
+    background-image: url(../img/sweep.png);
+}
+
+.icon {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-size: contain;
+    vertical-align: middle;
+}
+.icon-message {
+    background-image: url(../img/messge.png);
+}
+
+.icon {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-size: contain;
+    vertical-align: middle;
+}
+.mui_brand_scrollBar {
+    padding: 0 10px;
+    height: 30px!important;
+}
+.mui_brand_scrollBar .mui-control-item {
+    border-bottom: 0!important;
+    padding: 0 4px!important;
+    margin: 0 6px!important;
+    font-size: 11px!important;
+    position: relative;
+    height: 30px;
+    line-height: 32px;
+}
+.mui_brand_scrollBar .mui_brand_line {
+    display: none;
+}

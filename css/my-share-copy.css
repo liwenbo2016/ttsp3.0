@@ -1,0 +1,103 @@
+/*.mui-icon-color{
+	color:#000;
+}
+.mui-div-bag{
+	background:#fff;
+}
+.mui-share-copy{
+	width:100%;
+	padding-top:70px;
+}
+.mui-share-url{
+	width:80%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.mui-url-input{
+	width:80% !important;
+	border:1px solid red !important;
+}
+.mui-btn-link{
+	color:red;
+	width:18%;
+	padding:9px 0px;
+	border:1px solid red;
+}
+.mui-share-box{
+	width:100%;
+	margin-top:70px;
+}
+.mui-share-erweima{
+	width:56%;
+	height:210px;
+	margin:0 auto;
+	background:url(../img/23.png) no-repeat;
+	background-size:contain;
+}
+.mui-share-erweima img{
+	width:63%;
+	margin:36px 0px 0px 37px;
+}
+.mui-share-info{
+	width:80%;
+	margin:0 auto;
+	margin-top:45px;
+}
+.mui-share-info p{
+	color:#000;
+	text-align:center;
+}
+*/
+
+
+.mui-icon-color{
+     color:#000;
+}
+ .mui-div-bag{
+     background:#fff;
+}
+ .mui-share-copy{
+     width:100%;
+     padding-top:1.8918918918918919rem;
+}
+ .mui-share-url{
+     width:80%;
+     margin:0 auto;
+     overflow:hidden;
+}
+ .mui-url-input{
+     width:80% !important;
+     border:1px solid red !important;
+}
+ .mui-btn-link{
+     color:red;
+     width:18%;
+     padding:0.24324324324324326rem 0rem;
+     border:1px solid red;
+}
+ .mui-share-box{
+     width:100%;
+     margin-top:1.8918918918918919rem;
+}
+ .mui-share-erweima{
+     width:56%;
+     height:5.675675675675675rem;
+     margin:0 auto;
+     background:url(../img/23.png) no-repeat;
+     background-size:contain;
+}
+ .mui-share-erweima img{
+     width:63%;
+     margin:1.03rem 0rem 0rem 1.05rem;
+     /*margin:0.972972972972973rem 0rem 0rem 1rem;*/
+}
+ .mui-share-info{
+     width:80%;
+     margin:0 auto;
+     margin-top:1.2162162162162162rem;
+}
+ .mui-share-info p{
+     color:#000;
+     text-align:center;
+}
+ 

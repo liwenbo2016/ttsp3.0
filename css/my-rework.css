@@ -1,0 +1,36 @@
+.mui-form-tops{
+	margin-top:1px;
+}
+.mui-input-row label{
+	font-size:13px;
+}
+.mui-center-input{
+	width:60%;
+	margin:0 auto;
+}
+.mui-input-group:before {
+    position:inherit;  
+}
+.mui-input-group .mui-input-row:after {
+    position:inherit;
+}
+.mui-input-group:after {
+    position:inherit;
+}
+.mui-btn-buttom{
+	position:fixed;
+	bottom:0;
+	left:20%;
+	width:60%;
+	padding:5px 0;
+	margin:0;
+	border-radius:20px;
+}
+.mui-numbox {
+    height:20px; 
+    border:none;
+    padding:0;
+}
+.mui-numbox-tops{
+	margin:8px;
+}

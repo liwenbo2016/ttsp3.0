@@ -1,0 +1,181 @@
+/*.mui-icon-color{
+	color:#000;
+}
+.mui-media-body h5 , .mui-media-body p {
+	color:#000;
+}
+.mui-content>.mui-table-view:first-child {
+     margin-top: 0px; 
+}
+.mui-table-view:before , .mui-table-view:after , .mui-table-view-cell:after{
+    position:inherit;
+    
+}
+.mui-loistic{
+	width:100%;
+	margin-top:10px;
+	background:#fff;
+}
+.mui-time-axis{
+	margin:0;
+	padding:0;
+	width:92%;
+	margin:0 auto;
+	position: relative;
+}
+.mui-time-axis:before{
+	content: '';
+	position:absolute;
+	left:90px;
+	top:8px;
+	width:1px;
+	height:90%;
+	background-color: #E4E4E4;
+}
+.mui-time-axis-item{
+	list-style:none;
+	position:relative;
+	font-size:12px;
+	color: #141414;
+	padding:10px 0px 10px 120px;
+}
+.mui-time-axis-achievement{
+	margin: 0;
+}
+.mui-time-axis-date{
+	position:absolute;
+	left:0;
+	top:10px;
+	color:#666;
+}
+.mui-time-axis-tie{
+	position: absolute;
+	right:-33px;
+	top:20%;
+	display: block;
+	width: 13px;
+	height: 13px;
+	border: 1px solid #ccc;
+	border-radius: 100%;
+	background-color: #fff;
+}
+.mui-time-axis-tie:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 7px;
+	height: 7px;
+	margin: auto;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 100%;
+}
+.mui-time-axis-item:last-child .mui-time-axis-tie{
+	border-color: #48BEB2;
+}
+.mui-time-axis-item:last-child .mui-time-axis-tie:after{
+	background-color: #48BEB2;
+	border-color: #48BEB2;
+}
+*/
+
+ .mui-icon-color{
+     color:#000;
+}
+ .mui-media-body h5 , .mui-media-body p {
+     color:#000;
+}
+ .mui-content>.mui-table-view:first-child {
+     margin-top: 0rem;
+}
+ .mui-table-view:before , .mui-table-view:after , .mui-table-view-cell:after{
+     position:inherit;
+}
+ .mui-loistic{
+     width:100%;
+     margin-top:0.2702702702702703rem;
+     background:#fff;
+}
+ .mui-time-axis{
+     margin:0;
+     padding:0;
+     width:92%;
+     margin:0 auto;
+     position: relative;
+}
+ .mui-time-axis:before{
+     content: '';
+     position:absolute;
+     left:2.4324324324324325rem;
+     top:0.21621621621621623rem;
+     width:0.02702702702702703rem;
+     height:90%;
+     background-color: #E4E4E4;
+}
+ .mui-time-axis-item{
+     list-style:none;
+     position:relative;
+     font-size:0.32432432432432434rem;
+     color: #141414;
+     padding:0.2702702702702703rem 0rem 0.2702702702702703rem 3.2432432432432434rem;
+	 padding-left:0;
+	 
+}
+ 
+ .mui-time-axis-achievement{
+     margin: 0;
+}
+ .mui-time-axis-date{
+
+	 float:left;
+     color:#666;
+	 width:23%;
+	/* word-break: break-all; */
+	 text-align: center;
+}
+
+.muitime-axis-title{
+	float:left;
+	width:77%;
+	padding-left:30px;
+}
+ .mui-time-axis-tie{
+     position: absolute;
+     right:-0.8918918918918919rem;
+     top:20%;
+     display: block;
+     width: 0.35135135135135137rem;
+     height: 0.35135135135135137rem;
+     border: 1px solid #ccc;
+     border-radius: 100%;
+     background-color: #fff;
+	 left: 24.5%;
+	 top:50%;
+	 transform: translate(0,-50%);
+	 -webkit-transform: translate(0,-50%);
+}
+ .mui-time-axis-tie:after{
+     content: '';
+     position: absolute;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     width: 0.1891891891891892rem;
+     height: 0.1891891891891892rem;
+     margin: auto;
+     background-color: #ccc;
+     border: 1px solid #ccc;
+     border-radius: 100%;
+}
+ .mui-time-axis-item:last-child .mui-time-axis-tie{
+     border-color: #48BEB2;
+}
+ .mui-time-axis-item:last-child .mui-time-axis-tie:after{
+     background-color: #48BEB2;
+     border-color: #48BEB2;
+}
+ 

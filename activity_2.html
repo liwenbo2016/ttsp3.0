@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>通天尚品</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+	<link rel="stylesheet" href="css/iconfont.css" />
+	<link rel="stylesheet" href="css/commit.css" />
+	<link rel="stylesheet" type="text/css" href="css/activity.css"/>
+	<script src="js/pixel.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+	<header class="mui-bar mui-bar-nav">
+		<div class="mheader">
+			<div class="mleft">
+				<!--<a href='home-classify.html'><i class="icon icon-menu"></i></a>-->
+				<a class="mui-link" href='home-classify.html'>
+					<i style="position: relative; left: 3px;" class="mui-hicon mui-hicon-menu"></i> <br>
+					<span id="mui-lei">
+						分类
+					</span>
+				</a>
+			</div>
+			<div id="search" class="mui-input-row mui-search">
+			    <input type="search" disabled class="mui-input-clear mui_search" placeholder="请输入关键词">
+			</div>
+			<div class="mright">
+				<i class="icon icon-sweep"></i><a href="home-message.html" class="mui-link icon icon-message"></a>
+			</div>
+		</div>	
+	</header>
+	
+	<div class="mui-content" >
+		<div class="mui-segmented-control mui_activityTab">
+			<a class="mui-control-item " href="activity_1.html">拼团购</a>
+			<a class="mui-control-item  mui-active" href="#item2">限时购</a>
+		</div>	
+		
+		<div class="mui_activity_contain " id="pullUp_wrap" >
+			
+				<!-- 限时购 -->
+				<div id="item2" class="mui-control-content mui-active mui_limitTimeBuy  ">
+				
+					<div class="mui-segmented-control mui_limitTimeBuy_bar">
+						<a class="mui-control-item " href="#timeItem1">
+							<p class="mui_timeDf">11:00</p>
+							<p class="mui_txtDf">已抢完</p>
+						</a>
+						<a class="mui-control-item mui-active" href="#timeItem2">
+							<p class="mui_timeDf">11:00</p>
+							<p class="mui_txtDf">抢购进行时</p>
+							<span></span>
+						</a>
+						<a class="mui-control-item " href="#timeItem3">
+							<p class="mui_timeDf">20:00</p>
+							<p class="mui_txtDf">即将开始</p>
+						</a>
+						<a class="mui-control-item " href="#timeItem4">
+							<p class="mui_timeDf">12:00</p>
+							<p class="mui_txtDf">明日预告</p>
+						</a>
+					</div>
+					
+					<div id="timeItem1" class="mui-control-content mui_activity_homeList  pullup-container">
+						<ul   class=" mui-table-view ">
+							<li class="mui-table-view-cell mui-media mui_ali">
+								<a href="limitedtime-details.html">
+									<img class="mui-media-object mui-pull-left mui_aListimg" src="img/ico_activity_1.jpg">
+									<div class="mui-media-body ">
+										<p class="mui_ali_title">幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福</p>
+										<div class="mui_ali_dec">
+											<p class="mui_dec_1 mui_remainCounts ">
+												仅剩300件
+											</p>
+											<div class="mui_dec_2">
+												<p class="mui-ellipsis">
+													<span class="mui_PriceDf mui-ellipsis">¥ 258.00</span><span class="mui_oldPrice">358.00</span>
+						
+												</p>
+											</div>
+										</div>
+									</div>
+									
+								</a>
+								<!-- <a href="" class="mui_activity_goBtn">马上抢</a> -->
+								<span  class="mui_activity_sellOutBtn">已抢完</span>
+								<!-- <span  class="mui_activity_beStartBtn">即将开始</span> -->
+								<!-- <span  class="mui_activity_beStartBtn">明日预告</span> -->
+							</li>
+						
+						</ul>
+						
+					</div>
+					
+					<div id="timeItem2" class="mui-control-content mui_activity_homeList mui-active pullup-container pullup-container " style="padding-top:1.8918918918918919rem;">
+						<ul id="timeItem2"  class=" mui-table-view ">
+								<li class="mui-table-view-cell mui-media mui_ali">
+									<a href="limitedtime-details.html">
+										<img class="mui-media-object mui-pull-left mui_aListimg" src="img/ico_activity_1.jpg">
+										<div class="mui-media-body ">
+											<p class="mui_ali_title">幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福</p>
+											<div class="mui_ali_dec mui_progress_wrap">
+												<!-- <div  class="mui-progressbar" data-value= "20">
+													<span></span> <i class="mui_progress_ing">20%</i>
+												</div> -->
+												<p class="mui_dec_1 mui_remainCounts">
+													仅剩300件
+												</p>
+												
+												<div class="mui_dec_2">
+													<p class="mui-ellipsis">
+														<span class="mui_PriceDf mui-ellipsis">¥ 258.00</span><span class="mui_oldPrice">358.00</span>
+							
+													</p>
+												</div>
+											</div>
+										</div>
+										
+									</a>
+									<a href="limitedtime-details.html" class="mui_activity_goBtn">马上抢</a>
+									<!-- <span  class="mui_activity_sellOutBtn">已抢完</span> -->
+									<!-- <span  class="mui_activity_beStartBtn">即将开始</span> -->
+									<!-- <span  class="mui_activity_beStartBtn">明日预告</span> -->
+
+								</li>
+								
+								<li class="mui-table-view-cell mui-media mui_ali">
+									<a href="limitedtime-details.html">
+										<img class="mui-media-object mui-pull-left mui_aListimg" src="img/ico_activity_1.jpg">
+										<div class="mui-media-body ">
+											<p class="mui_ali_title">幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福</p>
+											<div class="mui_ali_dec mui_progress_wrap" >
+												<!-- <div  class="mui-progressbar" data-value= "30">
+													<span></span> <i class="mui_progress_ing">30%</i>
+												</div> -->
+												<p class="mui_dec_1 mui_remainCounts">
+													仅剩300件
+												</p>
+												<div class="mui_dec_2">
+													<p class="mui-ellipsis" >
+														<span class="mui_PriceDf mui-ellipsis">¥ 258.00</span><span class="mui_oldPrice">358.00</span>
+								
+													</p>
+												</div>
+											</div>
+										</div>
+										
+									</a>
+									<!-- <a href="" class="mui_activity_goBtn">马上抢</a> -->
+									<span  class="mui_activity_sellOutBtn">已抢完</span>
+									<!-- <span  class="mui_activity_beStartBtn">即将开始</span> -->
+									<!-- <span  class="mui_activity_beStartBtn">明日预告</span> -->
+
+								</li>
+							</ul>
+
+						<!-- 倒计时 -->
+						<div class="mui_countDown_block">
+							<p class="mui_countDown_block_row" id="mui_timeStr" data-end-time="2019-02-10 11:00:01">
+								<label>距活动结束</label>
+								<span class="mui_time_d"></span>:<span class="mui_time_h"></span>:<span class="mui_time_second"></span>
+							</p>
+							
+						</div>
+					</div>
+					
+					<div id="timeItem3" class="mui-control-content mui_activity_homeList pullup-container">
+						<ul id="timeItem3"  class=" mui-table-view ">
+							<li class="mui-table-view-cell mui-media mui_ali">
+								<a href="limitedtime-details.html">
+									<img class="mui-media-object mui-pull-left mui_aListimg" src="img/ico_activity_1.jpg">
+									<div class="mui-media-body ">
+										<p class="mui_ali_title">幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福</p>
+										<div class="mui_ali_dec">
+											<div class="mui_dec_1 mui_remainCounts ">
+												仅剩300件
+											</div>
+											<div class="mui_dec_2">
+												<p class="mui-ellipsis">
+													<span class="mui_PriceDf mui-ellipsis">¥ 258.00</span><span class="mui_oldPrice">358.00</span>
+						
+												</p>
+											</div>
+										</div>
+									</div>
+									
+								</a>
+								<!-- <a href="" class="mui_activity_goBtn">马上抢</a> -->
+								<!-- <span  class="mui_activity_sellOutBtn">已抢完</span> -->
+								<span  class="mui_activity_beStartBtn">即将开始</span>
+								<!-- <span  class="mui_activity_beStartBtn">明日预告</span> -->
+
+							</li>
+			
+						</ul>
+					</div>
+					
+					<div id="timeItem4" class="mui-control-content mui_activity_homeList pullup-container">
+						<ul id="timeItem4"  class=" mui-table-view ">
+							<li class="mui-table-view-cell mui-media mui_ali">
+								<a href="limitedtime-details.html">
+									<img class="mui-media-object mui-pull-left mui_aListimg" src="img/ico_activity_1.jpg">
+									<div class="mui-media-body ">
+										<p class="mui_ali_title">幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福</p>
+										<div class="mui_ali_dec">
+											<p class="mui_dec_1 mui_remainCounts">
+												仅剩300件
+											</p>
+											<div class="mui_dec_2">
+												<p class="mui-ellipsis">
+													<span class="mui_PriceDf mui-ellipsis">¥ 258.00</span><span class="mui_oldPrice">358.00</span>
+						
+												</p>
+											</div>
+										</div>
+									</div>
+									
+								</a>
+								<!-- <a href="" class="mui_activity_goBtn">马上抢</a> -->
+								<!-- <span  class="mui_activity_sellOutBtn">已抢完</span> -->
+								<!-- <span  class="mui_activity_beStartBtn">即将开始</span> -->
+								<span  class="mui_activity_beStartBtn">明日预告</span>
+
+							</li>
+							<li class="mui-table-view-cell mui-media mui_ali">
+								<a href="limitedtime-details.html">
+									<img class="mui-media-object mui-pull-left mui_aListimg" src="img/ico_activity_1.jpg">
+									<div class="mui-media-body ">
+										<p class="mui_ali_title">幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福幸福</p>
+										<div class="mui_ali_dec">
+											<p class="mui_dec_1 mui_remainCounts">
+												仅剩300件
+											</p>
+											<div class="mui_dec_2">
+												<p class="mui-ellipsis">
+													<span class="mui_PriceDf mui-ellipsis">¥ 258.00</span><span class="mui_oldPrice">358.00</span>
+													
+												</p>
+											</div>
+										</div>
+									</div>
+									
+								</a>
+								<!-- <a href="" class="mui_activity_goBtn">马上抢</a> -->
+								<!-- <span  class="mui_activity_sellOutBtn">已抢完</span> -->
+								<!-- <span  class="mui_activity_beStartBtn">即将开始</span> -->
+								<span  class="mui_activity_beStartBtn">明日预告</span>
+
+							</li>
+						</ul>
+					</div>
+								
+				</div>
+			</div>
+			
+	
+				
+			
+		</div>
+		
+	</div>
+	<nav class="mui-bar mui-bar-tab">
+		<a id="defaultTab" class="mui-tab-item ">
+		    <span class="mui-icon iconfont icon-shouye"></span>
+		    <span class="mui-tab-label">首页</span>
+		</a>
+		<a class="mui-tab-item mui-link" href="brand.html">
+		    <span class="mui-icon iconfont icon-pinpaiguanli"></span>
+		    <span class="mui-tab-label">品牌区</span>
+		</a>
+		<a class="mui-tab-item mui-link mui-active" href="">
+			<img src="img/activity.png" class="active-icon" />
+			<span class="mui-icon iconfont"></span>
+			<span class="mui-tab-label">活动</span>
+		</a>
+		<a class="mui-tab-item mui-link" href="shoppingCart.html">
+		    <span class="mui-icon iconfont icon-ERP_gouwuche"></span>
+		    <span class="mui-tab-label">购物车</span>
+		</a>
+		<a class="mui-tab-item mui-link" href="my.html">
+		    <span class="mui-icon iconfont icon-wode"></span>
+		    <span class="mui-tab-label">我的</span>
+		</a>
+	</nav>
+	<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/home.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		mui.init()
+
+		mui.ready(function () {
+			mui('body').on('tap','a',function(){
+				window.top.location.href=this.href;
+				
+			});
+			// 进度条
+
+// 			mui(".mui-progressbar").each(function(index,item){
+// 				let value = item.getAttribute('data-value')
+// 				console.log(value)
+// 				mui(item).progressbar({progress:value}).show();
+// 			})
+				// mui(container).progressbar().setProgress(50);
+				// mui(container).progressbar().hide();
+			pullUp()
+			time_countDown()		
+			// 倒计时
+			function time_countDown(){
+				var obj_time = document.getElementById('mui_timeStr')
+				var time = obj_time.getAttribute('data-end-time')
+				var obj_timeList = obj_time.getElementsByTagName("span")
+				
+				if(time){
+					setInterval(function () {
+						var timeValue = countTime(new Date(), new Date(time.replace(/-/g,'/')) ,true);
+						// console.log(timeValue)
+						obj_timeList[0].innerText = timeValue.h
+						obj_timeList[1].innerText = timeValue.m
+						obj_timeList[2].innerText = timeValue.s
+					}, 1000)
+				}
+			}
+			
+
+		     //循环初始化所有下拉刷新，上拉加载。
+			 function pullUp(){
+				 mui.each(document.querySelectorAll('.pullup-container'), function(index, pullRefreshEl) {
+				 	// console.log(pullRefreshEl)
+					
+				 	mui(pullRefreshEl).pullRefresh({
+				 		up: {
+				 			callback: function() {
+				 				var self = this;
+				 				setTimeout(function() {
+				 		
+				 					//  加载数据...
+									
+				 					 self.endPullupToRefresh(true);
+									 // self.refresh(true);
+				 				}, 1000);
+				 			}
+				 		}
+					
+				 	});
+					// console.log(mui(pullRefreshEl).pullRefresh())
+				 });
+			 }
+					
+		
+		})
+		
+		
+		
+	</script>
+</body>
+</html>

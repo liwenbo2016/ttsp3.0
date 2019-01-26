@@ -1,0 +1,147 @@
+.mui_myfootprint_head{
+	background-color:#fff;
+}
+.mui_myfootprint_head a.mui-icon{
+	color:#000;
+}
+.mui_myfootprint_head a.btn_edit{
+	display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 40px;
+    height: 24px;
+    margin-top: -12px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 24px;
+	text-align:center;
+	color:#000;
+}
+.mui_myfootprint_head button{
+	color:#000!important;
+}
+.mui_footprint_case{
+	margin:2px 0;
+}
+.mui_footprint_case .mui-table-view{
+	background:none;
+}
+.mui_footprint_date{
+	font-size:12px;
+	background-color:#fff;
+	padding:2px 15px; 
+	margin:0;
+	border:solid 1px #e2e2e2;
+	color:#000;
+}
+.mui_footprint_item{
+	margin:4px 0;
+	background-color:#fff;
+
+}
+.mui_footprint_item:after{
+	height:0;
+}
+.mui_footprint_item .mui_footprint_dec{
+	font-size:12px;
+	color:#000;
+	height:40px;
+}
+.mui_footprint_item .mui_footprint_price{
+	color:red;
+	font-size:12px;
+	min-height:21px;
+}
+.mui_footprint_item img{
+	width:60px;
+	height:60px!important;
+	max-width:60px!important;
+}
+.mui_footprint_item .mui_footprint_buy{
+	position:absolute;
+	right:15px;
+	bottom:0;
+	top:auto;
+	height:24px;
+	font-size:12px;
+	padding:0;
+	width:60px;
+	line-height:24px;
+}
+.mui_footprint_editCase .mui_footprint_item{
+	background-color:#fff;
+}
+.mui_footprint_checkbox{
+	position:absolute;
+	left:15px;
+	top:50%;
+	height:30px;
+	width:30px;
+	margin-top:-15px;
+}
+.mui_footprint_checkbox input{
+	left:0!important;
+	top:0!important;
+}
+.mui_footprint_checkbox input[type=checkbox]:checked:before{
+	color:red;
+}
+.mui_fontprint_ftBtnBar input[type=checkbox]:checked:before{
+	color:red;
+}
+.mui_footprint_editCase .mui_footprint_item{
+	padding-left:60px;
+}
+.mui_fontprint_ftBtnBar{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	background:#fff;
+	font-size:0;
+	height:40px;
+}
+.mui_fontprint_ftBtnBar .mui_allBtn{
+	width:60%;
+	height:100%;
+	border:0;
+	border-radius:0;
+	box-sizing: border-box;
+}
+.mui_fontprint_ftBtnBar .mui_ft_delelteBtn{
+	width:40%;
+	border:0;
+	border-radius:0;
+	box-sizing: border-box;
+	height:100%;
+	background-color:red;
+	color:#fff;
+}
+.mui_fontprint_ftBtnBar .mui-checkbox{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index: 1;
+}
+.mui_fontprint_ftBtnBar .mui-checkbox input{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index: 2;
+}
+.mui_fontprint_ftBtnBar .mui-checkbox input:before{
+	position:absolute;
+	right:50%;
+	left:auto;
+	top:50%;
+	margin-right:40px;
+	margin-top:-14px;
+}
+.mui_fontprint_ftBtnBar .mui_allCheck_label{
+	line-height:40px;
+}

@@ -1,0 +1,48 @@
+.mui-icon-color{
+     color:#000;
+}
+ .mui-tis-style{
+     color:#000;
+     margin-top:0.32432432432432434rem;
+     font-size:0.4594594594594595rem;
+}
+ .mui-ul-width{
+     width:100%;
+     margin:0;
+     padding:0;
+}
+ .mui-ul-width li{
+     float:left;
+     width:20%;
+     padding:0.2702702702702703rem 0rem;
+     text-align:center;
+     list-style-type:none;
+     background-color:#fff;
+}
+ .mui-ul-width li a{
+     color:#333;
+}
+ .mui-ul-width li a div{
+     margin-top:0.21621621621621623rem;
+}
+ .mui-bar-nav {
+     -webkit-box-shadow: 0 0.02702702702702703rem 0.16216216216216217rem #57a9ff !important;
+     box-shadow: 0 0.02702702702702703rem 0.16216216216216217rem #57a9ff !important;
+}
+ .mui-bar {
+     -webkit-box-shadow: 0 0 0.02702702702702703rem #57a9ff !important;
+     box-shadow: 0 0 0.02702702702702703rem #ccc !important;
+}
+ .mui-content>.mui-table-view:first-child {
+     margin:0rem;
+}
+ .mui-font-size{
+     font-size:0.40540540540540543rem;
+}
+ .mui-media-info-size{
+     font-size:0.35135135135135137rem;
+}
+.mui-icon-colors{
+	color:#000;
+}
+ 

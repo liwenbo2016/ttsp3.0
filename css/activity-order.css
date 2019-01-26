@@ -1,0 +1,221 @@
+.mui-icon-color{
+	color:#000;
+}
+.mui-box-bg{
+	margin:0;
+	background:#fff;
+}
+.mui-info-center{
+	text-align:center;
+	padding-top:0.216rem;
+	padding-bottom:0.324rem;
+	margin-bottom:0.135rem;
+}
+.mui-time-mess{
+	font-size: 0.373rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #808080;
+}
+.mui-ass-info{
+	font-size: 0.373rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #000000;
+}
+.mui-info-center a{
+	margin:0 0.676rem ;
+}
+.mui-icon-lists{
+	width:70%;
+}
+/*.mui-img-box{
+	float:left;
+	margin-right:0.135rem;
+}*/
+.mui-img-size{
+	width:80%;
+}
+.mui-explain{
+	font-size: 0.32rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #999999;
+	padding-top:0.365rem;
+   /* margin-right:-0.675rem;*/
+}
+.mui-icons{
+	overflow:hidden;
+}
+.mui-icons-left{
+	float:left;
+	width:65% !important;
+}
+.mui-icons-top{
+	margin-top:8px;
+}
+.mui-icons-right{
+	float:left;
+	width:35%;
+}
+.mui-segmented-control.mui-scroll-wrapper .mui-control-item {
+    width:40px;
+    padding:0 !important;
+}
+.mui-item-leftr{
+	margin-left:15px;
+}
+.mui-icons-size{
+	font-size:0.486rem;
+	font-weight: bold;
+}
+.mui-img-box{
+	position:relative;
+	width: 0.96rem;
+	height: 0.96rem;
+	border-radius:50%;
+}
+.mui-badg-left{
+	position:absolute;
+	left:0px;
+	top:0;
+	font-size:0.224rem;
+	background:#f7b3d9;
+}
+/*.mui-symbol {
+	color: #808080;
+	text-align: center;
+	line-height:0.96rem;
+	border: dashed 0.013rem #7f7f7f;
+}*/
+.mui-box{
+	float:left;
+	width:2.4rem;
+	height: 1.6rem;
+	background-color: #f7b3d9;
+	border-radius: 0.133rem;
+}
+.mui-box span{
+	width:70%;
+	height: 0.853rem;
+	display: block;
+	margin:0.405rem 0.486rem;
+	font-size: 0.373rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.48rem;
+	letter-spacing: 0rem;
+	color: #ffffff;
+}
+.mui-box-samll{
+	float:left;
+	width: 1.1rem;
+	height: 1.6rem;
+}
+.mui-box-samll img{
+	width:80%;
+	margin:0.595rem 0.135rem;
+}
+.mui-box-big{
+	width:100%;
+	height:70px;
+}
+.mui-box-bgs{
+	width:100%;
+	padding:0.297rem;
+    margin-top:0.270rem;
+ 	background-color: #ffffff;
+}
+.mui-box-inf{
+	width:100%;
+	height:1.216rem;
+    margin-top:0.270rem;
+}
+.mui-box-sll{
+	font-size: 0.32rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.48rem;
+	letter-spacing: 0rem;
+	color: #808080;
+}
+.mui-text-indent{
+	text-indent:0.676rem;
+}
+.mui-table-view:before , .mui-table-view:after  {
+    position:inherit;  
+}
+.mui-top-box{
+	width:100%;
+	padding:0.270rem 0rem;
+}
+.mui-top-img{
+	width:10%;
+	margin:0rem 0.405rem;
+}
+.mui-explain-success{
+	line-height:1.216rem;
+	font-size: 0.373rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #000000;
+}
+.mui-margin-spleft{
+     margin-left:0.541rem;
+}
+.mui-info-left{
+     margin:0rem 0rem 0.270rem 0.270rem;
+}
+.mui-info-left span{
+	font-size: 0.293rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.4rem;
+	letter-spacing: 0rem;
+}
+.mui-span-black{
+	color:#000;
+}
+.mui-span-grly{
+	color: #808080;
+}
+.mui-footer-with a{
+	margin-right:0.405rem;
+}
+.mui-sp-wid{
+	width:90%;
+	padding:0rem 1.216rem;
+}
+.mui-sp-wid span{
+	float:right;
+}
+.mui-table-view-chevron .mui-table-view-cell {
+    padding-right: 1.35rem;
+}
+.mui-navigate-right:after, .mui-push-right:after {
+    right: .65540540540540543rem;
+    content: '\e583';
+}
+
+.mui-con-background{
+	background:#fff;
+}
+.mui-align-center{
+	text-align:center;
+	padding:20px;
+	font-size: 0.48rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #000000;
+}
+.mui-red-color{
+	font-size: 0.48rem;
+	font-weight: normal;
+	letter-spacing: 0rem;
+	color: #ff0000;
+}

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>通天商品</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+	<link rel="stylesheet" href="css/iconfont.css" />
+	<link rel="stylesheet" href="css/commit.css" />
+	<link rel="stylesheet" type="text/css" href="css/ht.css"/>
+	<script src="js/pixel.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav ">
+		<a class="mui-action-back mui-icon mui-icon-arrowleft mui-pull-left mui_order_backBtn"></a>
+		<h1 class="mui-title mui_order_title">确认订单</h1>
+	</header>
+	
+	<div class="mui-content">
+		<div class="mui-table-view mui_order_locationWrap">
+			<div class="mui-table-view-cell">
+				<a class="mui-navigate-right mui_order_location_case" href="shoppingCart-edit-order-addressList.html">
+					<div class="mui_order_userInfo">
+						<label>收货人：</label>
+						<p class="mui_order_name">张三</p>
+						<p class="mui_order_num">13017794009</p>
+					</div>
+					
+					<p class="mui_order_location">
+						<i class="mui_location_ico  mui-icon mui-icon-location"></i>
+						收货地址：广东省深圳市龙华区民治
+					</p>
+				</a>
+			</div>	
+		</div>
+		
+		<ul class="mui-table-view mui_order_goodsList">
+			<li class="mui-table-view-cell mui-media mui_order_goodsItem">
+				<a href="" class="mui_orderGoods_title">
+					<p><img class="mui_icoDf" src="img/6.png" alt=""><span>通天自营</span></p>
+				</a>
+				<a href="javascript:;">
+					<img class="mui-media-object mui-pull-left" src="img/brand_goods3.jpg">
+					<div class="mui-media-body">
+						<p class="mui_order_goodsDec">南极人男士内裤男平角纯棉青年透气韩版全棉四角裤头短裤衩潮LM</p>
+						<p class="mui_order_goodsType">
+							<span class="mui_type_item">商品类型：经典纯色</span>
+							<span class="mui_type_item">尺码：XL</span>
+						</p>
+						<div class="mui_order_goodsPrice_row">
+							<p class="mui_priceDf">¥99.00</p>
+							<span class="mui_countsDf">×1</span>
+						</div>
+					</div>
+				</a>
+			</li>
+		
+		</ul>
+		
+		<ul class="mui-table-view mui_order_dispatching">
+			<li class="mui-table-view-cell">			
+				配送方式
+				<span class="mui-pull-right">商家指定物流</span>
+			</li>
+		<!-- 	<li class="mui-table-view-cell">
+				<a class="mui-navigate-right">
+					 选择优惠券
+					<span class="mui-pull-right" style="margin-right:20px;">请选择优惠券</span>
+				</a>
+			</li> -->
+			<li class="mui-table-view-cell">
+				给商家留言
+				<textarea class="mui_orderGoods_message" rows="" cols="" maxlength="90" placeholder="选填:备注限字在45个字以内"></textarea>
+				<p class="mui-pull-right">
+					<input class="mui_usefulScoresDf" type="checkbox" value="" />
+					<label for="mui_usefulScoresDf" class="mui_usefulScoresLabelDf">使用玉豆：<span class="mui_scoresValue"></span>个</label>
+				</p>
+			</li>
+		</ul>
+			
+		<ul class="mui-table-view mui_orderInfo">
+			<li class="mui-table-view-cell">
+				税前商品总额
+				<span class="mui-pull-right">¥ 99.00</span>
+			</li>
+			<li class="mui-table-view-cell">
+				优惠
+				<span class="mui-pull-right">- ¥ 0.00</span>
+			</li>
+			<li class="mui-table-view-cell">
+				运费
+				<span class="mui-pull-right ">+ ¥ 0</span>
+			</li>
+			<li class="mui-table-view-cell">
+				税金
+				<span class="mui-pull-right ">¥ 0</span>
+			</li>
+			<li class="mui-table-view-cell">
+				当前玉豆
+				<span class="mui-pull-right">0</span>
+			</li>
+		</ul>
+		
+		<div class="mui_orderCounts_row ">
+			<span class="mui_labelDf">共1件商品</span><span class="mui_countsDf">合计：¥99.00</span>
+		</div>
+		
+		<div class="mui_orderFt_BtnBar">
+			<div  class=" mui_allTotal">实付：¥1976.00</div>
+			<button type="button" class="mui-btn mui_order_deleteBtn" style="background-color: red;">提交订单</button>
+		</div>
+	</div>
+	<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	mui.init()
+	mui.ready(function () {
+		mui('.mui_orderFt_BtnBar').on("click" ,'.mui_order_deleteBtn',function(){
+			mui.openWindow({url:'my-agent-checkoutCounter.html' , id:"my-agent-checkoutCounter"})
+		})
+	})
+	</script>
+</body>
+</html>

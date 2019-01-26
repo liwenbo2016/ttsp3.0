@@ -1,0 +1,156 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>通天尚品</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/commit.css"/>
+	<link rel="stylesheet" type="text/css" href="css/mui-checkcounter.css"/>
+	 <!-- <link rel="stylesheet" type="text/css" href="css/my-balan.css"/> -->
+	 <script src="js/pixel.js" type="text/javascript" charset="utf-8"></script>
+
+	<style type="text/css">
+		#popover{z-index: 9999;}
+	</style>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-arrowleft mui-pull-left">
+		</a>
+		<h1 class="mui-title">收银台</h1>
+	</header>
+	<div class="mui-content">
+		<form class="mui-input-group mui_payWay_group">
+			<div class="mui-input-row mui-radio ">
+				<img class="mui_icoDf" src="img/ico_money.png" alt="">
+				<label class="mui_labelDf">账户余额<span>（¥1000.00）</span></label>
+				<input class="mui_radioDf" name="radio" type="radio" checked>
+			</div>
+			<div class="mui-input-row mui-radio ">
+				<img class="mui_icoDf" src="img/ico_wechat.png" alt="">
+				<label class="mui_labelDf">微信支付</label>
+				<input class="mui_radioDf" name="radio" type="radio" >
+			</div>
+			
+			
+		</form>
+		
+		<div class="mui_orderCounts_case">
+			<h6 class="mui_titleDf">订单金额</h6>
+			<p class="mui_priceDf">¥20000.00</p>
+		</div>
+		
+		<div class="mui_agencyCheckoutCounter_btnRow">
+			<a href="#popover" class="mui-btn mui-btn-blue mui-btn-block" >确认付款</a>
+		</div>	
+		
+		<!--支付键盘 -->
+		<div id="popover" class="box mui-popover mui-popover-action mui-popover-bottom">
+			<div class="mui-key-header">
+				<div class="mui-key-title">
+					请输入支付密码
+				</div>
+				<div class="mui-key-tip">
+					<div class="">微信支付</div>
+					<div class="mui-num">￥100</div>
+				</div>
+				<div class="mui-key-box">
+					<div class="mui-box-item"></div>
+					<div class="mui-box-item"></div>
+					<div class="mui-box-item"></div>
+					<div class="mui-box-item"></div>
+					<div class="mui-box-item"></div>
+					<div class="mui-box-item"></div>
+				</div>
+			</div>
+			<div id="keyboard">
+				<div class="mui-row">
+					<div class="mui-key-btn num">1</div>
+					<div class="mui-key-btn num">2</div>
+					<div class="mui-key-btn num">3</div>
+				</div>
+				<div class="mui-row">
+					<div class="mui-key-btn num">4</div>
+					<div class="mui-key-btn num">5</div>
+					<div class="mui-key-btn num">6</div>
+				</div>
+				<div class="mui-row">
+					<div class="mui-key-btn num">7</div>
+					<div class="mui-key-btn num">8</div>
+					<div class="mui-key-btn num">9</div>
+				</div>
+				<div class="mui-row">
+					<div class="mui-key-btn no" style="color: #ECECEC;"></div>
+					<div class="mui-key-btn num">0</div>
+					<div class="mui-key-btn del"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		mui.init()
+		mui.ready(function () {
+			// 键盘
+			var password = [];
+						mui.each(document.querySelectorAll('#keyboard .num'), function (i, el) {
+							el.addEventListener('tap', function () {
+								addInputed(this.innerText);
+							});
+						});
+						document.querySelector('.del').addEventListener('tap', function () {
+							removeInputed();
+						});
+						function addInputed (num) {
+							if (password.length > 5) {return;}
+							var nodeEl = document.querySelectorAll('.mui-key-box .mui-box-item')[password.length];
+							password.push(num);
+							addClass(nodeEl, 'mui-inputed');
+							if (password.length === 6) { // 密码已经输入了六位数
+							
+							    // 需要判断所需的页面
+							    
+								window.location.href = 'activity-order(conduct).html';   
+								//window.location.href = 'activity-order(complete).html';
+							}
+						}
+						function removeInputed () {
+							if (!password.length) {return;}
+							var nodeEl = document.querySelectorAll('.mui-key-box .mui-box-item')[password.length-1];
+							password.pop();
+							removeClass(nodeEl, 'mui-inputed');
+						}
+						function hasClass(elements, cName) {
+						  	return !!elements.className.match(new RegExp("(\\s|^)" + cName + "(\\s|$)")); 
+						}
+						function addClass(elements, cName) {
+						  	if(!hasClass(elements, cName)) {
+						    	elements.className += " " + cName; 
+						  	}
+						}
+						function removeClass(elements, cName) {
+						  if (hasClass(elements,cName)) { 
+						    elements.className = elements.className.replace(new RegExp( "(\\s|^)" + cName + "(\\s|$)" ), " ");
+						  }
+						}
+			// ***********************************************************
+			// 弹框
+			// 付款失败
+			function payError(){
+				mui.alert('配额不足，无法支付','付款失败！','确定',function (e) {
+				   e.index
+				},'div')
+			}
+			// 输入密码错误
+			function passwordError(){
+				mui.confirm('','输入密码错误',['重新输入密码','找回密码'],function (e) {
+					e.index
+				},'div')
+			}
+			
+		})
+	</script>
+</body>
+</html>

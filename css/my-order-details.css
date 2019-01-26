@@ -1,0 +1,268 @@
+./*mui-icon-color{
+	color:#000;
+}
+.mui-span-samll{
+	font-size:17px;
+}
+.mui-content>.mui-table-view:first-child {
+    margin-top:2px; 
+}
+.mui-tit-mess{
+	padding:5px 15px;
+	border-bottom:1px solid #ccc;
+}
+.mui-tit-mess span{
+	font-size:15px;
+	border-bottom:2px solid mediumvioletred;
+}
+.mui-media-size{
+	font-size:13px;
+    margin-bottom:0px;
+}
+.mui-table-view-cell:after {
+    position:inherit;
+}
+.mui-li-message{
+    width:100%;
+    padding:5px 0px;
+}
+.mui-border-top{
+	border-top:1px solid #ccc;
+}
+.mui-li-message p{
+	margin:0;
+    padding-left:5%;
+	line-height:25px;
+}
+.mui-li-message p span{
+	color:#000;
+	font-size:12px;
+}
+.mui-right-a-bg{
+	color:#000;
+	font-size:12px;
+}
+.mui-h5-left{
+	color:#000;
+	margin-left:5%;
+}
+.mui-color-a{
+	font-size:12px;
+}
+.mui-color-as{
+	color:red;
+	padding:0px 8px;
+}
+
+.mui-border-li{
+	border-top:1px solid ghostwhite;
+}
+.mui-p-center{
+	margin:0 auto;
+	text-align: center;
+}
+.mui-p-center span{
+	color:#007aff;
+	font-size:15px;
+	padding:0px 5px;
+}
+.mui-left-media{
+	font-size:15px;
+	margin:0px 0px 5px 5%;
+}
+.mui-img-bgs{
+	width:15px;
+	margin:3px 5px 0px 0px;
+}
+
+.mui-imgs-bg{
+	width:120px;
+	margin:3px 5px 0px 0px;
+}
+.mui-p-span-bg{
+	color:#000;
+	font-size:15px;
+}
+.mui-span-color-bs span{
+	color:#999;
+	font-size:12px;
+}
+.mui-p-height p{
+	color:#999;
+	height:25px;
+	font-size:12px;
+	line-height:25px;
+}
+.mui-footer-btn{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	padding:10px 0px;
+	background:#fff;
+}
+.mui-spans-message{
+	color:red;
+	font-size:15px;
+}
+.mui-rights-spa{
+	margin-right:18px;
+}
+.mui-span-samll-font{
+	font-size:12px !important;
+}
+.mui-lis-spanss a{
+	color:#007aff;
+	padding:0px 5px;
+	font-size:13px;
+	border-radius:5px;
+	margin-right:18px;
+	border:1px solid #007aff;
+}
+.mui-forward-top{
+	margin-top:-15px !important;
+}
+.mui-weight-lefts{
+	margin-left:30% !important;
+}
+.mui-weight-leftss{
+	margin-left:8% !important;
+}
+.time-remain{
+	color:#007aff;
+}
+*/
+
+
+.mui-icon-color{
+    color:#000;
+}
+.mui-span-samll{
+    font-size:0.4594594594594595rem;
+}
+ .mui-content>.mui-table-view:first-child {
+     margin-top:0.05405405405405406rem;
+}
+ .mui-tit-mess{
+     padding:0.13513513513513514rem 0.40540540540540543rem;
+     border-bottom:0.02702702702702703rem solid #ccc;
+}
+ .mui-tit-mess span{
+     font-size:0.40540540540540543rem;
+     border-bottom:0.05405405405405406rem solid mediumvioletred;
+}
+ .mui-media-size{
+     font-size:0.35135135135135137rem;
+     margin-bottom:0rem;
+}
+ .mui-table-view-cell:after {
+     position:inherit;
+}
+ .mui-li-message{
+     width:100%;
+     padding:0.13513513513513514rem 0rem;
+}
+ .mui-border-top{
+     border-top:0.02702702702702703rem solid #ccc;
+}
+ .mui-li-message p{
+     margin:0;
+     padding-left:5%;
+     line-height:0.6756756756756757rem;
+}
+ .mui-li-message p span{
+     color:#000;
+     font-size:0.32432432432432434rem;
+}
+ .mui-right-a-bg{
+     color:#000;
+     font-size:0.32432432432432434rem;
+}
+ .mui-h5-left{
+     color:#000;
+     margin-left:5%;
+}
+ .mui-color-a{
+     font-size:0.32432432432432434rem;
+}
+ .mui-color-as{
+     color:red;
+     padding:0rem 0.21621621621621623rem;
+}
+ .mui-border-li{
+     border-top:0.02702702702702703rem solid ghostwhite;
+}
+ .mui-p-center{
+     margin:0 auto;
+     text-align: center;
+}
+ .mui-p-center span{
+     color:#007aff;
+     font-size:0.40540540540540543rem;
+     padding:0rem 0.13513513513513514rem;
+}
+ .mui-left-media{
+     font-size:0.40540540540540543rem;
+     margin:0rem 0rem 0.13513513513513514rem 5%;
+}
+ .mui-img-bgs{
+     width:0.40540540540540543rem;
+     margin:0.08108108108108109rem 0.13513513513513514rem 0rem 0rem;
+}
+ .mui-imgs-bg{
+     width:3.2432432432432434rem;
+     margin:0.08108108108108109rem 0.13513513513513514rem 0rem 0rem;
+}
+ .mui-p-span-bg{
+     color:#000;
+     font-size:0.40540540540540543rem;
+}
+ .mui-span-color-bs span{
+     color:#999;
+     font-size:0.32432432432432434rem;
+}
+ .mui-p-height p{
+     color:#999;
+     height:0.6756756756756757rem;
+     font-size:0.32432432432432434rem;
+     line-height:0.6756756756756757rem;
+}
+ .mui-footer-btn{
+     position:fixed;
+     bottom:0;
+     left:0;
+     width:100%;
+     padding:0.2702702702702703rem 0rem;
+     background:#fff;
+}
+ .mui-spans-message{
+     color:red;
+     font-size:0.40540540540540543rem;
+}
+ .mui-rights-spa{
+     margin-right:0.4864864864864865rem;
+}
+ .mui-span-samll-font{
+     font-size:0.32432432432432434rem !important;
+}
+ .mui-lis-spanss a{
+     color:#007aff;
+     padding:0rem 0.13513513513513514rem;
+     font-size:0.35135135135135137rem;
+     border-radius:0.13513513513513514rem;
+     margin-right:0.4864864864864865rem;
+     border:1px solid #007aff;
+}
+ .mui-forward-top{
+     margin-top:-0.40540540540540543rem !important;
+}
+ .mui-weight-lefts{
+     margin-left:30% !important;
+}
+ .mui-weight-leftss{
+     margin-left:8% !important;
+}
+ .time-remain{
+     color:#007aff;
+}
+ 

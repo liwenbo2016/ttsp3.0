@@ -1,0 +1,111 @@
+.mui-icon-color{
+     color:#000;
+}
+ .mui-shopping{
+     width:100%;
+     height:27.027027027027028rem;
+}
+ .mui-shopping-top{
+     width:55%;
+     margin:0rem auto;
+     padding:0.40540540540540543rem 0rem;
+}
+ .mui-shopping-top span{
+     float:left;
+     display:block;
+     margin-left:9%;
+}
+ .mui-span-o{
+     width:20%;
+     margin-top:0.2702702702702703rem;
+     border-bottom:0.02702702702702703rem solid #a2a1a1;
+}
+ .mui-span-t{
+     width:25%;
+     color:#a2a1a1;
+     font-size:0.32432432432432434rem;
+     text-align: center;
+}
+ .mui-shopping-list{
+     width:80%;
+     margin:0 auto;
+     margin-top:0.2702702702702703rem;
+}
+ .mui-ul-width{
+     width:100%;
+     margin:0;
+     padding:0;
+}
+ .mui-li-width{
+     float:left;
+     width:46%;
+     margin:0.13513513513513514rem 0rem;
+     background:#fff;
+     list-style-type:none;
+}
+ .mui-img-width{
+     width:100%;
+     height:4.054054054054054rem;
+     object-fit: cover;
+}
+ .margintop-div{
+     width:100%;
+}
+ .mui-li-left{
+     margin-left:8%;
+}
+ .mui-span-n{
+     color:#000;
+     font-size:0.35135135135135137rem;
+     margin:0rem 0.13513513513513514rem;
+}
+ .mui-li-width p{
+     margin:0;
+     padding:0;
+}
+ .mui-li-width p span{
+     font-size:0.2702702702702703rem;
+     margin:0rem 0.13513513513513514rem;
+}
+ .mui-red-color{
+     color:red;
+}
+ .mui-footer-info{
+     position:fixed;
+     bottom:0;
+     left:0;
+     width:100%;
+     padding:10px 0;
+     background:#fff;
+}
+.mui-content{
+	margin-bottom:50px;;
+}
+
+.mui-footer-mess{
+	width:30%;
+	margin:0 auto;
+}
+.coll input[type=checkbox] {
+	display: none;
+	opacity: 0;
+}
+.coll .mui-collect-icon {
+	display: inline-block;
+	width: 0.85rem;
+	height: 0.85rem;
+	background-image:url(../img/28.png);
+	background-size:cover;
+	vertical-align: top;
+}
+.coll input[type=checkbox]:checked+.checkboxui .mui-collect-icon {
+	background-image: url(../img/29.png);
+}
+.coll input[type=checkbox]:checked+.checkboxui {
+	color: #e71a8c;
+}
+.coll .checkboxui {
+	color: #000;
+	font-size:15px;
+	line-height: 0.85rem;
+}
